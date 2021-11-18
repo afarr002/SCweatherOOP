@@ -36,7 +36,8 @@ var currentWeather = function (cityName) {
         .then(function (oneData) {
           console.log("one", oneData);
 
-          const uvi = oneData.current.uvi;
+          const uvi = oneData.daily[0].uvi;
+          // console.log(uvi);
 
           const template = `
         <div class="currentBlock">
@@ -60,7 +61,7 @@ var currentWeather = function (cityName) {
 var futureForecast = function (cityName) {
   const futureApiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&appid=${apiKey}`;
 
-  console.log(futureApiUrl);
+  // console.log(futureApiUrl);
 
   fetch(futureApiUrl)
     .then(function (res) {
@@ -76,7 +77,7 @@ var futureForecast = function (cityName) {
           return false;
         }
       });
-      console.log(filterData);
+      // console.log(filterData);
 
       let template = "";
 
