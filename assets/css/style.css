@@ -1,0 +1,78 @@
+:root {
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--black);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--black);
+}
+
+header p {
+  font-size: 1.7rem;
+}
+
+.test {
+  border: 5px solid var(--black);
+}
+
+.search {
+  width: 20%;
+  height: 90%;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.results {
+  width: 78%;
+  height: 90%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.currentBlock {
+  border: solid rgba(0, 0, 0, 0.125) 1px;
+  width: 97%;
+  border-radius: 2%;
+}
+
+.forecastTiles {
+  display: flex;
+  margin: 2px;
+  justify-content: center;
+  width: 19%;
+  border-radius: 2%;
+}
+
+.prevSearchButton {
+  background-color: grey;
+}
+
+.hide {
+  display: none;
+}
