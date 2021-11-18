@@ -11,7 +11,7 @@ It also features information pulled from the Open Weather App API.
 
 ## Application Link
 
-The link to the deployed site is -
+The link to the deployed site is - https://afarr002.github.io/SCweatherOOP/
 
 ## Shot of Deployed Page
 
