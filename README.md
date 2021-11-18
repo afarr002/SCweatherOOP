@@ -16,3 +16,4 @@ The link to the deployed site is -
 ## Shot of Deployed Page
 
 Here is a shot of how the deployed site should load.
+<img width="1535" alt="insidescoopweather" src="https://user-images.githubusercontent.com/88466341/142349210-92fa480e-4fec-4de8-9a4b-81884d8a76d5.png">
