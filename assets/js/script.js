@@ -83,7 +83,7 @@ var currentWeather = function (cityName) {
           // responsible for setting the color of the uv index text based on the value of the uv index, seperated into severity
           if (uvi <= 2.99) {
             document.querySelector("#uvi").style.color = "green";
-            document.querySelector("#span").style.background = "darkgrey";
+            document.querySelector("#span").style.background = "grey";
             return;
           } else if (uvi >= 3 && uvi <= 5.99) {
             document.querySelector("#uvi").style.color = "yellow";
@@ -91,11 +91,11 @@ var currentWeather = function (cityName) {
             return;
           } else if (uvi >= 6 && uvi <= 7.99) {
             document.querySelector("#uvi").style.color = "orange";
-            document.querySelector("#span").style.background = "darkgrey";
+            document.querySelector("#span").style.background = "grey";
             return;
           } else if (uvi >= 8 && uvi <= 10.99) {
             document.querySelector("#uvi").style.color = "red";
-            document.querySelector("#span").style.background = "darkgrey";
+            document.querySelector("#span").style.background = "grey";
             return;
           } else if (uvi >= 11) {
             document.querySelector("#uvi").style.color = "purple";
