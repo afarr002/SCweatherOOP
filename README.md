@@ -19,6 +19,8 @@ The motivation for this project was to create a weather tracker that could be ut
 ## Usage
 
 Enter a city into the input field and hit enter or click search.
+<img width="1535" alt="Inside Scoop Weather Screen Shot" src="https://user-images.githubusercontent.com/88466341/144168968-798f6cfe-d4b1-41b6-a81e-ee8b0386c35f.png">
+
 
 ## License
 
