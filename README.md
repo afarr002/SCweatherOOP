@@ -1,10 +1,10 @@
-# SCweatherOOP! ![License: MIT](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge&logo=appveyor)
+# SCweatherOOP! (Inside Scoop Weather) ![License: MIT](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge&logo=appveyor)
 
 ---
 
 ## Description
 
-The motivation for this project was to create a weather tracker that could be utilized to find weather information for any specific city the user was traveling in. Upon entering a city within the search field, the user is displayed the current weather conditions, including the city name for reference, the current date, an icon to represent the current weather conditions, current temperature, current humidity, current wind speed, and the current UV index. It wil also display the weather forecast for upcoming 5 days which includes the date for the day of the forecast, an icon that represents the forecasted weather, forecasted temperature, forecasted wind speed, and forecasted humidity. It also gives you the option to re-select your most previous search options which will persist on the page through a refresh.
+SCweatherOOP! (Inside Scoop Weather) was created as a weather tracker that could be utilized to find weather information for any specific city the user was traveling in, orcurious about. Upon entering a city within the search field, the user is displayed the current weather conditions, including the city name for reference, the current date, an icon to represent the current weather conditions, current temperature, current humidity, current wind speed, and the current UV index. It wil also display the weather forecast for upcoming 5 days which includes the date for the day of the forecast, an icon that represents the forecasted weather, forecasted temperature, forecasted wind speed, and forecasted humidity. It also gives you the option to re-select your most previous search options which will persist on the page through a refresh.
 
 ---
 
@@ -20,7 +20,6 @@ The motivation for this project was to create a weather tracker that could be ut
 
 Enter a city into the input field and hit enter or click search.
 <img width="1535" alt="Inside Scoop Weather Screen Shot" src="https://user-images.githubusercontent.com/88466341/144168968-798f6cfe-d4b1-41b6-a81e-ee8b0386c35f.png">
-
 
 ## License
 
